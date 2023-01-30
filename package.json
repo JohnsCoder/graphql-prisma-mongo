@@ -1,0 +1,29 @@
+{
+  "name": "graphql-prisma-mongo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsnd --respawn --transpile-only --rs index.ts",
+    "test:cov": "jest --coverage" ,
+    "test:watch": "jest --silent=false --watchAll"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.9.0",
+    "apollo-server": "^3.11.1",
+    "graphql": "^16.6.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "@babel/plugin-transform-modules-commonjs": "^7.20.11",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-typescript": "^7.18.6",
+    "@types/graphql": "^14.5.0",
+    "@types/jest": "^29.2.6",
+    "@types/node": "^18.11.18",
+    "babel-jest": "^29.3.1",
+    "jest": "^29.3.1",
+    "prisma": "^4.9.0",
+    "typescript": "^4.9.4"
+  }
+}
